@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    color: #000000;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 60px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff0000ea;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f2e5dc, #ffffff);
+    gap: 10px; /* Espacio reducido entre las columnas */
+}
+
+/* Estilos para Contact Info y Formulario */
+.contact-info, .comment-form {
+    width: 48%; /* Aumenta el ancho para que estén más juntas */
+    margin: 0; /* Elimina el margen para que no haya espacio adicional */
+}
+
+/* Cuadro y fondo para la información de contacto */
+.contact-info {
+    padding: 15px; /* Ajusta el espacio interno */
+    border: 2px solid rgb(81, 14, 143);
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info h2, .comment-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Tabla de información de contacto */
+.contact-info table {
+    width: 100%;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+
+.contact-info td {
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(81, 14, 143);
+}
+
+/* Tamaño ajustado para la imagen */
+.contact-info .image-placeholder img {
+    width: 350px; /* Ajuste del tamaño de la imagen */
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 28px auto;
+}
+
+/* Cuadro y fondo para el horario de atención */
+.contact-info h3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contact-info p {
+    padding: 8px;
+    border: 2px solid rgb(81, 14, 143);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilos para el formulario */
+.comment-form {
+    padding: 10px;
+    border: 2px solid rgb(81, 14, 143);
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comment-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.comment-form input, .comment-form textarea, .comment-form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(81, 14, 143);
+    border-radius: 4px;
+}
+
+.comment-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.comment-form button:hover {
+    background-color: #555;
+}
+
+/* Estilos para la sección del mapa */
+.map-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-media a img {
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+}
+
+

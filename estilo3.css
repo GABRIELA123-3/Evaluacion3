@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    color: #ff0000ea;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+        "title title"
+        "about-us image-right"
+        "images-bottom images-bottom";
+    grid-template-columns: 60% 40%;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+    background-color: rgb(81, 14, 143);
+    color: white;
+    padding: 15px 0;
+}
+
+.title h2 {
+    font-size: 2rem;
+}
+
+.about-us {
+    grid-area: about-us;
+    background-color: #f9f9f9;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.about-us h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.image-right {
+    grid-area: image-right;
+}
+
+.image-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.images-bottom {
+    grid-area: images-bottom;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.images-bottom img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(81, 14, 143);
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-media a img {
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+}
